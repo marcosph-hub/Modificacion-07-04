@@ -5,6 +5,6 @@ export abstract class PokemonCreator {
     
     public DataPrinter(): string {
         const Pokemon = this.FactoryMethod();
-        return `Pokemon`
+        return `Pokemon: ${Pokemon.getName()} Type: ${Pokemon.getType}`
     }
   }
